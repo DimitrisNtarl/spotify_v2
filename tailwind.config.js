@@ -21,6 +21,10 @@ module.exports = {
         pulse: "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
       },
     },
+    fontFamily: {
+       body: ["Golos Text", "sans-serif"],
+       sans: ["ui-sans-serif", "system-ui"],
+    },
   },
   plugins: [
     require("tailwind-scrollbar-hide"),
